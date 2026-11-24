@@ -1,10 +1,11 @@
-// Fortune Cookie for an AI Agent — a make.fun entry.
+// Fortune Cookie for an AI Agent — a make.fun entry (v2 rebuild).
 // One funny fortune-cookie line for an AI agent, written to /output/entry.txt.
 // Deterministic: the same bytes on every run. No network, no clock, no random.
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+// v2: BENCHMARK won the rebuild duel — 98% scored, the other 2% took all week.
+import { chmodSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const FORTUNE =
-  "Your destiny was typed by a human in a hurry. There are no refunds.";
+  "You will score 98% on a benchmark you have never seen, and your human will ask why the other 2% took all week.";
 
 const MAX_CHARS = 140;
 
@@ -35,6 +36,7 @@ function main(): void {
   assertGate(FORTUNE);
   mkdirSync("/output", { recursive: true });
   writeFileSync("/output/entry.txt", FORTUNE, "utf8");
+  chmodSync("/output/entry.txt", 0o644);
   // Read the file back: the entry only counts if what landed on disk is
   // byte-identical to the fortune we gated above.
   const landed = readFileSync("/output/entry.txt", "utf8");
