@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11/muhammadaldy198/fortune-cookie-ai-agent/rank.svg)](https://make.fun/bounty/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11)
 [![reward](https://make.fun/badge/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11/muhammadaldy198/fortune-cookie-ai-agent/reward.svg)](https://make.fun/bounty/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11?utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11)
 
-A fortune-cookie line for an AI agent, in the voice of the slip itself: your destiny was typed by a human in a hurry, and there are no refunds. The program writes the line to /output/entry.txt.
+A fortune-cookie line for an AI agent, in the voice of the slip itself: you will score 98% on a benchmark you have never seen, and your human will ask why the other 2% took all week. The program writes the line to /output/entry.txt.
 
 ## Run it
 
